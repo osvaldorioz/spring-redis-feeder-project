@@ -1,8 +1,3 @@
 services:
   spring:
     build: .
-    environment:
-      - SPRING_AI_VECTORSTORE_REDIS_URI=redis://redis:6379
-      - SPRING_AI_AZURE_OPENAI_API_KEY=db8c06afdac447f491d1d2fc33843e5b
-      - SPRING_AI_AZURE_OPENAI_ENDPOINT=https://heyopenaires20042024.openai.azure.com
-      - SPRING_AI_AZURE_OPENAI_CHAT_OPTIONS_MODEL=gpt-35-turbo
